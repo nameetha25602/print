@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main()
+{
+    int choice;
+    scanf("%d",&choice);
+    switch(choice)
+    {
+        case 1: printf("Sunday");
+        break;
+        case 2: printf("Monday");
+        break;
+        case 3: printf("Tuesday");
+        break;
+        case4: printf("Wednesday");
+        break;
+        case5: printf("Thursday");
+        break;
+        case6: printf("Friday");
+    return 0;
+}
