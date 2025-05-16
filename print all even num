@@ -1,0 +1,13 @@
+int main() {
+    
+ int start, end;
+    scanf("%d %d",&start, &end);
+    int i=start;
+    while(i<=end) 
+    {
+        if(i%2 == 0)
+        {
+            printf("%d ",i);
+        }
+        i++;
+    }
